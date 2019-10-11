@@ -1,17 +1,18 @@
 import discord
 
-client = discord.Client()
+from discord.ext import commands
 
-@client.event
+bot = commands.Bot(command_prefix='$')
+
+@bot.command()
+async def ping(ctx):
+    await ctx.send('pong')
+
+
+@bot.event
 async def on_ready():
-    print('We have logged in as {0.user}'.format(client))
+    print('We have logged in as {0.user}'.format(bot))
 
-@client.event
-async def on_message(message):
-    if message.author == client.user:
-        return
 
-    if message.content.startswith('$hello'):
-        await message.channel.send('Hello!')
 
-client.run('NjMxOTkwOTA5NDE1ODQ5OTg1.XZ_Bxg.PfqBDp589jR71ejDoIOd0xPDkqo')
+bot.run('NjMxOTkwOTA5NDE1ODQ5OTg1.XZ_Gzw.yiFHzVVZGPMBYTMtVh6HGKZHxXI')
