@@ -1,5 +1,4 @@
 import discord
-bot = commands.Bot(command_prefix='?', description=description)
 client = discord.Client()
 
 @client.event
