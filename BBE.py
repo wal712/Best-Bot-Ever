@@ -12,6 +12,16 @@ async def ping(ctx):
 async def greet(ctx, arg):
     await ctx.send('Fuck you {0}'.format(arg))
 
+@bot.command()
+async def fiend(ctx):
+    line = ""
+    await ctx.send("<:pussy_fiend:8>")
+    # for i in range(10):
+    #     line += ' :pussy_fiend: '
+    
+    # await ctx.send("looking for...me?")
+    # for i in range(10):
+    #     await ctx.send(line)
 
 @bot.event
 async def on_ready():
@@ -19,4 +29,4 @@ async def on_ready():
     
         
 
-bot.run('NjMxOTkwOTA5NDE1ODQ5OTg1.XZ_USg.4EEFsruH4bFnwQ9BXw8HyDd7DKk')
+bot.run('NjMxOTkwOTA5NDE1ODQ5OTg1.XZ_Vqw.fimpReqohBqskwrx40dvVX0_Q7A')
