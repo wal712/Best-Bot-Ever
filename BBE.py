@@ -49,4 +49,4 @@ async def on_ready():
     
         
 
-bot.run('')
+bot.run('NjMxOTkwOTA5NDE1ODQ5OTg1.XcXFuA.63LfiIt5HNhV2BQrBuhFExQyo6g')
