@@ -149,4 +149,4 @@ async def on_ready():
     
         
 
-bot.run('NjMxOTkwOTA5NDE1ODQ5OTg1.XcXbcQ.T_W9mnwN4_Q-ZPlXpBS23fD-XnU')
+bot.run('NjMxOTkwOTA5NDE1ODQ5OTg1.XcXFuA.63LfiIt5HNhV2BQrBuhFExQyo6g')
